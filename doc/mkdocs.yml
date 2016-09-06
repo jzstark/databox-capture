@@ -1,0 +1,4 @@
+site_name: VPN/Proxy Client Config
+pages:
+    - Home: index.md
+theme: readthedocs

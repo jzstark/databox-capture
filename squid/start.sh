@@ -22,3 +22,11 @@ docker run --name squid -d --publish 3128:3128 \
 
 ## Shell Access:
 # docker exec -it squid bash
+
+# Generate PAC file
+serverip=`ifconfig eth0 | awk '/inet addr/{print substr($2,6)}'`
+cat > squid.pac << EOF
+function FindProxyForURL(url, host){
+    return "PROXY $serverip:3128";
+}
+EOF

@@ -33,7 +33,7 @@ fi
 
 # apt-get install qrencode
 # pip install mkdocs
-pip install pymongo
+pip install pymongo dpkt
 
 if [ $(dpkg-query -W -f='${Status}' easy_intall 2>/dev/null | grep -c "ok installed") -eq 0 ];
 then

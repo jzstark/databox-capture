@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadDisplayName</key>
+    <string>Databox L2TP/IPSec VPN Profile</string>
+    <key>PayloadIdentifier</key>
+    <string>140.33.62.178</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>f57d7b0a4cb4</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>PayloadDescription</key>
+            <string>Configures L2TP VPN settings</string>
+            <key>PayloadDisplayName</key>
+            <string>DB L2TP VPN</string>
+            <key>PayloadIdentifier</key>
+            <string>140.33.62.178.shared-configuration</string>
+            <key>PayloadType</key>
+            <string>com.apple.vpn.managed</string>
+            <key>PayloadUUID</key>
+            <string>0679ba65-1fbf-4201-a10c-40d6c37fda4b</string>
+            <key>PayloadVersion</key>
+            <real>1</real>
+            <key>UserDefinedName</key>
+            <string>My DB L2TP VPN</string>
+            <key>OverridePrimary</key>
+            <integer>1</integer>
+            <key>VPNType</key>
+            <string>L2TP</string>
+            <key>IPSec</key>
+            <dict>
+                <key>AuthenticationMethod</key>
+                <string>SharedSecret</string>
+                <key>LocalIdentifierType</key>
+                <string>KeyID</string>
+                <key>SharedSecret</key>
+                <data>654321</data>
+            </dict>
+            <key>PPP</key>
+            <dict>
+                <key>AuthName</key>
+                <string>databox</string>
+                <key>AuthPassword</key>
+                <string>123456</string>
+                <key>CommRemoteAddress</key>
+                <string>178.62.33.140</string>
+            </dict>
+        </dict>
+    </array>
+</dict>
+</plist>
