@@ -43,5 +43,5 @@ Follow Step 1-5 as in [HTTP Proxy](#squid). Then choose \`Manual\` from the \`Pr
 ![illustration](/img/android_l2tp3.png)
 1. Check the \`Save account information\` checkbox. Tap \`Connect\`. Once connected, you will see a VPN icon in the notification bar. 
 
-You can verify that your traffic is being routed properly by [looking up your IP address](www.hashemian.com/whoami/). It should say *Your public IP address is $IP*.
+You can verify that your traffic is being routed properly by [looking up your IP address](http://www.hashemian.com/whoami/). It should say *Your public IP address is $IP*.
 EOF

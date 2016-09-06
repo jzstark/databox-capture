@@ -47,5 +47,5 @@ Proxy/VPNInstallation Instruction on Windows 7
     - Click the \`Advanced settings\` button. Select \`Use preshared key for authentication\` and enter **$L2TP_PSK** for the \`Key\`.
 1. Click \`OK\` twice to save the VPN connection details. To connect to the VPN, simply right-click on the wireless/network icon in your system tray, select *Databox VPN*, and click \`Connect\`.
 
-You can verify that your traffic is being routed properly by [looking up your IP address](www.hashemian.com/whoami/). It should say *Your public IP address is $IP*.
+You can verify that your traffic is being routed properly by [looking up your IP address](http://www.hashemian.com/whoami/). It should say *Your public IP address is $IP*.
 EOF

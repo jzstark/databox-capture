@@ -33,5 +33,5 @@ Follow Step 1-5 as in [HTTP Proxy](#squid). Then fill in the \`URL\` as \`http:/
 3. Click 'Connect' and provide
     - \`Secret\`: \`$L2TP_PSK\`
 
-You can verify that your traffic is being routed properly by [looking up your IP address](www.hashemian.com/whoami/). It should say *Your public IP address is $IP*.
+You can verify that your traffic is being routed properly by [looking up your IP address](http://www.hashemian.com/whoami/). It should say *Your public IP address is $IP*.
 EOF
