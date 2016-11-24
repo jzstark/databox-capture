@@ -1,0 +1,8 @@
+site_name: VPN Client Config
+pages:
+    - Home: index.md
+    - Tools: 
+        - ShadowSocks: shadowsocks.md
+        - OpenVPN: openvpn.md
+
+theme: readthedocs
